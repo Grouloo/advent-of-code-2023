@@ -128,7 +128,7 @@ function findLastDigit(line: string): Digit {
   return maybeDigit.expect("No last digit found.")[0]
 }
 
-function retrieveCalibrationValue(line: string): `${Digit}${Digit}` {
+export function retrieveCalibrationValue(line: string): `${Digit}${Digit}` {
   const firstDigit = findFirstDigit(line)
   const lastDigit = findLastDigit(line)
 
