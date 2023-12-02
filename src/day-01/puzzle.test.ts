@@ -23,6 +23,7 @@ describe("A calibration value is retrieved by", () => {
     )
   })
 })
+
 describe("The calibration value is generated from the sum of numbers composed of the first and last", () => {
   test("digit of every line", () => {
     const values = ["1abc2", "pqr3stu8vwx", "a1b2c3d4e5f", "treb7uchet"]
